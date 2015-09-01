@@ -1,0 +1,141 @@
+body{
+	background: none repeat scroll 0 0 #eee;
+	font-family: arial;
+	font-size: 13px;
+	line-height: 22px;
+}
+#container
+{
+	margin: 0 auto;
+	width: 960px;
+	background: #fff;
+	}
+	
+#header
+{
+	background: #ccc;
+	padding: 20px;
+}
+
+.main-content {
+    margin-left: 15%;
+}
+
+.footer {
+    background-color: #ECECE2;
+    height: 9%;
+    width: 103%;
+    margin-right: -13px;
+    margin-left: -14px;
+    margin-bottom: -20px;
+    margin-top: 202px;
+}
+
+#header h1 {
+   margin: 0;
+   }
+   
+#navigation
+{
+	float: left;
+	width: 960px;
+	background:#333;
+}
+
+#navigation ul{
+	margin: 0;
+	padding: 0;
+	}
+#navigation ul li
+{
+	list-style-type: none;
+	display:inline;
+	}
+	
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color:#fff;
+	text-decoration: none;
+	border-right: 1px solid#fff;
+}
+
+#navigation li a:hover {
+	background:#383;
+	}
+#navigation ul li:hover ul{
+	display: block;
+}
+#navigation ul ul{
+		display: none;
+		position: absolute;
+		background-color: #333;
+	}
+#navigation ul ul li{
+		display:block;
+		}
+#navigation ul ul li a, visited{
+         color: #ccc;
+	 }
+	 
+#navigation ul ul li a: hover {
+         color: #099;  
+		 }
+.wrapper{
+		width: 960px;
+        margin:0 auto;		
+	    text-align: left;
+		}
+
+#searchform #s {
+		background: none repeat scroll 0% 0% transparent;
+		color:#363433;
+		border:0px none;
+		width:100px;
+		padding: 0px;
+		margin: 0px
+		}
+		
+#mainbody {
+	margin: 10px 0px 0px;
+	background: none;
+	border: 1px solid #E3E3E3;
+	padding: 15px;
+	height: 535px;	
+}
+#leftBox {
+	float: left;
+	border: 1px solid black;
+	}
+#leftBox ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#leftBox ul h3{
+	display: block;
+	padding: 5px 10px;
+	color:#fff;
+	text-decoration: none;
+	background: #1376C9;
+	border-right: 1px solid#fff;
+	} 
+#leftBox ul a{
+	display: block;
+	padding: 5px 10px;
+	color:#fff;
+	text-decoration: none;
+	background: #1376C9;
+	border-right: 1px solid#fff;
+	}
+#footer
+{
+	background:#ccc;
+	text-align: center;
+	margin: 20px 0px 0px;
+	padding: 20px;
+	height: 5%;
+}
+
